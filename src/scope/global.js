@@ -16,8 +16,9 @@ function bestFruit() {
 
 bestFruit();
 
-function country() {
-    country = 'Colombia';
+function countries() {
+    //la variable country no esta declarada, por ende su scope es global
+    country = 'Colombia'; //Global
     console.log(country);
 }
 
